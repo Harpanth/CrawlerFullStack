@@ -15,7 +15,7 @@ const Input = () => {
     setError(null);
 
     try {
-      const response = await fetch("http://localhost:3001/scrape", {
+      const response = await fetch("https://crawlerfullstack-backend.onrender.com/scrape", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
